@@ -7,15 +7,14 @@ export const ProfileCard = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--bg);
+  background-color: honeydew;
   border-radius: 10px;
-  box-shadow: var(--main-shadow);
-`;
+  `;
 
 export const Description = styled.div`
   margin-bottom: 25px;
   text-align: center;
-  color: var(--secondary);
+  color: black;
 `;
 
 export const Avatar = styled.img`
@@ -25,40 +24,39 @@ export const Avatar = styled.img`
   width: 150px;
   display: block;
   border-radius: 50%;
-  box-shadow: var(--inset-shadow);
-`;
+  background-color: white;
+  `;
 
 export const Name = styled.p`
   margin-bottom: 7px;
   font-size: 28px;
   font-weight: 700;
-  color: var(--accent);
-  text-shadow: var(--main-shadow);
+  text-shadow: black;
 `;
 
 export const Tag = styled.p`
   margin-bottom: 7px;
   font-size: 18px;
-  text-shadow: var(--main-shadow);
+  text-shadow: black;
 `;
 
 export const Location = styled.p`
   font-size: 18px;
-  text-shadow: var(--main-shadow);
+  text-shadow: black;
 `;
 
 export const StatsList = styled.ul`
-  margin: 0 auto;
+  margin: 0;
   padding: 10px;
   width: 100%;
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 20px;
   border-radius: 10px;
-  box-shadow: var(--main-shadow);
-`;
+  background-color: #DCDCDC;
+  `;
 
 export const StatsItem = styled.li`
   display: flex;
@@ -70,12 +68,10 @@ export const StatsItem = styled.li`
 
 export const Label = styled.span`
   font-weight: 500;
-  color: var(--secondary);
-  text-shadow: var(--main-shadow);
+  text-shadow: black;
 `;
 
 export const Quantity = styled.span`
   font-weight: 700;
-  color: var(--accent);
-  text-shadow: var(--main-shadow);
+  text-shadow: black;
 `;

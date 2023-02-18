@@ -8,6 +8,7 @@ export const ProfileCard = styled.div`
   align-items: center;
   background-color: honeydew;
   border: 1px solid grey;
+  border-radius: 5px;
   `;
 
 export const Description = styled.div`
@@ -46,26 +47,26 @@ export const Location = styled.p`
 `;
 
 export const StatsList = styled.ul`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   margin: 0;
   padding: 0;
-  width: 100%;
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #DCDCDC;
+  border-bottom: 5px;
   `;
 
 export const StatsItem = styled.li`
   display: flex;
-  flex-direction: column;
   align-items: center;
- justify-content: center;
-  gap: 7px;
-  width:calc(100% / 3);
-  height: 90px;
-  border: 1px solid grey;
-   `;
+  flex-direction: column;
+  padding: 20px 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  border-bottom:5px;
+    :not(:last-child) {
+    border-right: 1px solid #e1e1e1;
+  }
+`;
 
 export const Label = styled.span`
   font-weight: 500;

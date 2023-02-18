@@ -5,7 +5,7 @@ export const Container = styled.section`
   margin-bottom: 40px;
   padding: 20px;
   width: 350px;
-  background-color: lightgrey;
+  background-color: #f0f0f0;
   border-radius: 10px;
   `;
 

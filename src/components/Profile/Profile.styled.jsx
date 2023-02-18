@@ -9,6 +9,7 @@ export const ProfileCard = styled.div`
   background-color: honeydew;
   border: 1px solid grey;
   border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 61%) 0px 5px 5px 1px;
   `;
 
 export const Description = styled.div`

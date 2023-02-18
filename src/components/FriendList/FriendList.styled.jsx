@@ -28,7 +28,8 @@ export const Status = styled.span`
     border-radius: 50%;
     background-color: ${({ status }) => {
         return status ? 'green' : 'red';
-    }};
+}};
+    
 `;
 
 export const Icon = styled.img`

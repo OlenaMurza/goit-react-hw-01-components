@@ -7,6 +7,7 @@ export const Container = styled.section`
   width: 350px;
   background-color: #f0f0f0;
   border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 61%) 0px 5px 5px 1px;
   `;
 
 export const Title = styled.h2`

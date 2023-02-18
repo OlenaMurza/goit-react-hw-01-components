@@ -2,17 +2,17 @@ import styled from '@emotion/styled';
 
 export const ProfileCard = styled.div`
   margin: 40px auto;
-  padding: 20px;
   width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: honeydew;
-  border-radius: 10px;
+  border: 1px solid grey;
   `;
 
 export const Description = styled.div`
   margin-bottom: 25px;
+ margin-top: 25px;
   text-align: center;
   color: black;
 `;
@@ -47,14 +47,12 @@ export const Location = styled.p`
 
 export const StatsList = styled.ul`
   margin: 0;
-  padding: 10px;
+  padding: 0;
   width: 100%;
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  border-radius: 10px;
   background-color: #DCDCDC;
   `;
 
@@ -62,9 +60,12 @@ export const StatsItem = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 33.333%;
+ justify-content: center;
   gap: 7px;
-`;
+  width:calc(100% / 3);
+  height: 90px;
+  border: 1px solid grey;
+   `;
 
 export const Label = styled.span`
   font-weight: 500;
